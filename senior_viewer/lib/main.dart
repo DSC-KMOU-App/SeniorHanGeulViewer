@@ -36,6 +36,11 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: _pages[_index],
+      floatingActionButton: FloatingActionButton.extended(
+          onPressed: null,
+          label: Text('다음 장'),
+          icon: Icon(Icons.navigate_next),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (index){
           setState((){
