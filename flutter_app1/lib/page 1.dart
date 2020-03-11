@@ -116,7 +116,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                       width: 40.0,
                     ),
                     IconButton(
-                      icon: Image.asset('images/extra.png'),
+                      icon: Image.asset('images/next_page.png'),
                       onPressed: () async {
                         await Navigator.pushReplacement(
                             context, MaterialPageRoute(builder: (context) => Page2()));
