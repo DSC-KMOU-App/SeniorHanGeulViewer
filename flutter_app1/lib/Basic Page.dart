@@ -16,9 +16,6 @@ class _BasicPageState extends State<BasicPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         resizeToAvoidBottomPadding: false,
-        appBar: AppBar(
-        title: Text(widget.title),
-      ),
       body: Page1(),
       bottomNavigationBar: BottomAppBar(
         elevation: 0.0,

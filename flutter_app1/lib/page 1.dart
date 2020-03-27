@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app1/page 2.dart';
 
 class Page1 extends StatelessWidget {
-  static const String _title = 'Flutter Code Sample';
+  static const String _title = 'SeniorHanguelViewer';
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: _title,
       home: Page1StatefulWidget(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

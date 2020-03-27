@@ -16,7 +16,6 @@ class _CalendarState extends State<Calendar> {
   List<dynamic> _selectedEvents;
   TextEditingController _eventController;
   SharedPreferences prefs;
-  int index;
 
   @override
   void initState() {
@@ -60,6 +59,7 @@ class _CalendarState extends State<Calendar> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             TableCalendar(
+              locale: 'ko_KR',
               events: _events,
               initialCalendarFormat: CalendarFormat.week,
               calendarStyle: CalendarStyle(
@@ -103,7 +103,6 @@ class _CalendarState extends State<Calendar> {
               calendarController: _controller,
             ),
             Container(
-              height: 50,
               margin: EdgeInsets.only(left:10.0, right: 10.0),
               decoration: BoxDecoration(
                 color: Colors.blueAccent,
