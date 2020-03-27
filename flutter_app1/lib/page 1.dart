@@ -41,7 +41,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     IconButton(
-                      icon: Image.asset('images/call.png'),
+                      icon: Image.asset('images/call2.png'),
                       onPressed: (){
                         print('call');
                       },
@@ -51,7 +51,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                       width: 40.0,
                     ),
                     IconButton(
-                      icon: Image.asset('images/message.png'),
+                      icon: Image.asset('images/message2.png'),
                       onPressed: (){
                         print('message');
                       },
@@ -63,7 +63,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     IconButton(
-                      icon: Image.asset('images/kakao.png'),
+                      icon: Image.asset('images/kakao2.png'),
                       onPressed: (){
                         print('kakao');
                       },
@@ -73,7 +73,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                       width: 40.0,
                     ),
                     IconButton(
-                      icon: Image.asset('images/contact.png'),
+                      icon: Image.asset('images/contact2.png'),
                       onPressed: (){
                         print('contact');
                       },
@@ -85,7 +85,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     IconButton(
-                      icon: Image.asset('images/camera.png'),
+                      icon: Image.asset('images/camera2.png'),
                       onPressed: (){
                         print('camera');
                       },
@@ -95,7 +95,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                       width: 40.0,
                     ),
                     IconButton(
-                      icon: Image.asset('images/gallery.png'),
+                      icon: Image.asset('images/gallery2.png'),
                       onPressed: (){
                         print('gallery');
                       },
@@ -107,7 +107,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     IconButton(
-                      icon: Image.asset('images/band.png'),
+                      icon: Image.asset('images/band2.png'),
                       onPressed: (){
                         print('band');
                       },
@@ -117,7 +117,7 @@ class _Page1StatefulWidgetState extends State<Page1StatefulWidget> {
                       width: 40.0,
                     ),
                     IconButton(
-                      icon: Image.asset('images/next_page.png'),
+                      icon: Image.asset('images/next_page2.png'),
                       onPressed: () async {
                         await Navigator.pushReplacement(
                             context, MaterialPageRoute(builder: (context) => Page2()));
