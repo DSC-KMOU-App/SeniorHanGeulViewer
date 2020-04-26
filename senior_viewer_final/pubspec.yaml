@@ -1,0 +1,58 @@
+name: seniorviewerfinal
+description: DSC_KMOU application team Senior Viewer final
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+1
+  date_format: ^1.0.6
+  intl: ^0.16.0
+  shared_preferences: ^0.5.6+2
+  provider: ^3.0.0+1
+  intent: ^1.1.0
+  open_appstore: ^1.0.2
+  flutter_appavailability: ^0.0.21
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+
+  assets:
+    - images/band2.png
+    - images/call2.png
+    - images/camera2.png
+    - images/contact2.png
+    - images/gallery2.png
+    - images/kakao2.png
+    - images/message2.png
+    - images/next_page2.png
+    - images/band.png
+    - images/call.png
+    - images/camera.png
+    - images/contact.png
+    - images/gallery.png
+    - images/kakao.png
+    - images/message.png
+    - images/rain.png
+    - images/rain2.png
+    - images/humidity.png
+    - images/sunny.png
+    - images/temparature.png
+fonts:
+  - family: Gothic
+  - asset:
+      - fonts/GothicA1-Regular.ttf
+      - fonts/GothicA1-Bold.ttf
